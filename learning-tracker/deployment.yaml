@@ -6,7 +6,6 @@ metadata:
   labels:
     app: learning-tracker-api
   name: learning-tracker-api
-  namespace: learning-tracker
 spec:
   replicas: 3
   selector:
@@ -69,7 +68,6 @@ metadata:
   labels:
     app: learning-tracker-frontend
   name: learning-tracker-frontend
-  namespace: learning-tracker
 spec:
   replicas: 2 
   selector:
@@ -121,7 +119,6 @@ metadata:
   labels:
     app: mariadb
   name: mariadb
-  namespace: learning-tracker
 spec:
   replicas: 1
   selector:
